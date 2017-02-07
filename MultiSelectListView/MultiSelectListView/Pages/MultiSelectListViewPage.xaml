@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		xmlns:local="clr-namespace:MultiSelectListViewXF" 
+		x:Class="MultiSelectListViewXF.MultiSelectListViewPage">
+	<StackLayout Padding="0,20,0,0" Spacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" >
+		<Label HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Text="MultiSelect ListView Sample" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+		<ListView  x:Name="myListView"  VerticalOptions="FillAndExpand" RowHeight="50" >
+		</ListView>
+		<Label HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Text="{Binding Selected}" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+	</StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MultiSelectListViewXF.CustomCellView">
+	<ContentView.Content>
+		<StackLayout HeightRequest="59" x:Name="ContentXF" Padding="10,0,0,0" Spacing = "5" Orientation="Horizontal">
+			<StackLayout Orientation="Horizontal" VerticalOptions="Center">
+				<StackLayout VerticalOptions="Center">
+					<StackLayout Orientation="Horizontal" VerticalOptions="Center">
+						<Label FontSize="15" Text="{Binding  Persona.Name}" TextColor ="{Binding TextColor}" VerticalTextAlignment="Center"/>
+						<Label FontSize="15" Text="{Binding  Persona.LastName}"  VerticalTextAlignment="Center"/>
+					</StackLayout>
+					<Label FontSize="15" Text="{Binding  Persona.Profession}" TextColor ="{Binding TextColor}" VerticalTextAlignment="Center"/>
+				</StackLayout>
+			</StackLayout>
+		</StackLayout>	
+	</ContentView.Content>
+</ContentView>
