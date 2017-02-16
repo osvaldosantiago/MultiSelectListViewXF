@@ -57,7 +57,7 @@ namespace MultiSelectListViewXF
 			}
 		}
 
-		protected string _selected = "Follow";
+		protected string _selected = "Selected";
 		public string Selected
 		{
 			get { return _selected; }
